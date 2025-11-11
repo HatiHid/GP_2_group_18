@@ -8,7 +8,7 @@
 .
 ├─ notebooks/
 │   ├─ 01_data_parsing.ipynb      # сбор данных: парсинг
-│   ├─ 02_data_api_merge.ipynb    # API+merge
+│   ├─ 02_data_api_processing.ipynb    # API+его обработка
 │   └─ 03_eda.ipynb               # EDA
 └─ README.md
 

@@ -9,8 +9,8 @@
 ├─ notebooks/
 │   ├─ 01_data_parsing.ipynb                    # сбор данных: парсинг
 │   ├─ 02_data_api_processing_grouping.ipynb    # API+его обработка и группировка
-│   └─ 03_data_api_processing_grouping.ipynb    # API+его обработка и merge
-    └─ 04_eda.ipynb                             # EDA
+│   ├─ 03_data_api_processing_grouping.ipynb    # API+его обработка и merge
+│   └─ 04_eda.ipynb                             # EDA
 └─ README.md
 
 ```
@@ -205,12 +205,7 @@
 
   тип - бинарный 
 
-.
-.
-.
-
-## **Признаки с пропусками:**
-### Пропущенные значения в данных
+### Пропущенные значения в данных до их обработки
 
 | Признак                                   | Кол-во пропусков | Процент (%) |
 |-------------------------------------------|------------------:|------------:|
@@ -228,7 +223,7 @@
 
 .
 .
-## **Про `education_index` и `commercial_index`**
+### **Про `education_index` и `commercial_index`**
 
 `education_index` и `commercial_index` — это сводные показатели, которые помогают компактно описать качество окружения вокруг объекта.
 

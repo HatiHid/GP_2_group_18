@@ -210,35 +210,22 @@
 .
 
 ## **Признаки с пропусками:**
-complex_name — 592 пропуска
-(5.6% строк)
+### Пропущенные значения в данных
 
-developer — 1 402 пропуска
-(13.3% строк)
+| Признак                                   | Кол-во пропусков | Процент (%) |
+|-------------------------------------------|------------------:|------------:|
+| average_rating_museum_in_area             | 3505             | 33.29%      |
+| kitchen_area                              | 1531             | 14.59%      |
+| developer                                 | 1402             | 13.32%      |
+| number_of_rooms                           | 1368             | 12.99%      |
+| average_rating_parks_in_area              | 1135             | 10.78%      |
+| apartment_segment                          | 592              | 5.62%       |
+| complex_name                              | 592              | 5.62%       |
+| average_rating_shopping_center_in_area    | 525              | 4.99%       |
+| living_area                               | 196              | 1.86%       |
+| street_house                              | 83               | 0.79%       |
+| average_rating_business_center_in_area    | 2                | 0.02%       |
 
-housing_class — 592 пропуска
-(5.6% строк)
-
-rooms — 1 368 пропусков
-(13% строк)
-
-living_area_sqm — 196 пропусков
-(1.9% строк)
-
-kitchen_area_sqm — 1 536 пропусков
-(14.6% строк)
-
-avg_business_center_rating_district — 2 пропуска
-(<0.1% строк)
-
-avg_park_rating_district — 1 135 пропусков
-(10.8% строк)
-
-avg_shopping_mall_rating_district — 525 пропусков
-(5% строк)
-
-avg_museum_rating_district — 3 505 пропусков
-(33.3% строк)
 .
 .
 ## **Про `education_index` и `commercial_index`**

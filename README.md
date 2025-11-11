@@ -7,15 +7,13 @@
 ```text
 .
 ├─ notebooks/
-│   ├─ 01_data_parsing.ipynb      # сбор данных: парсинг
-│   ├─ 02_data_api_processing.ipynb    # API+его обработка
-│   └─ 03_eda.ipynb               # EDA
+│   ├─ 01_data_parsing.ipynb                    # сбор данных: парсинг
+│   ├─ 02_data_api_processing_grouping.ipynb    # API+его обработка и группировка
+│   └─ 03_data_api_processing_grouping.ipynb    # API+его обработка и merge
+    └─ 04_eda.ipynb                             # EDA
 └─ README.md
 
 ```
-.
-.
-.
 
 ## Цель
 
@@ -225,7 +223,7 @@
 .
 .
 
-**Признаки с пропусками:**
+## **Признаки с пропусками:**
 complex_name — 592 пропуска
 (5.6% строк)
 
@@ -257,7 +255,7 @@ avg_museum_rating_district — 3 505 пропусков
 (33.3% строк)
 .
 .
-**Про `education_index` и `commercial_index`**
+## **Про `education_index` и `commercial_index`**
 
 `education_index` и `commercial_index` — это сводные показатели, которые помогают компактно описать качество окружения вокруг объекта.
 
@@ -286,7 +284,7 @@ avg_museum_rating_district — 3 505 пропусков
 .
 .
 
-3) **Кодирование**
+## **Кодирование**
    
    Кодирование класса жилья (housing_class_encoded) выполнено с помощью label-энкодинга, где более высокий класс получает большее числовое значение, а отсутствие информации о классе выделено в отдельную категорию. Интерпретация значений:
 
@@ -301,6 +299,8 @@ avg_museum_rating_district — 3 505 пропусков
 0 - эконом-класс
 
 -1 - отсутствует указание класса 
+
+## EDA
 
 
 
